@@ -1,6 +1,12 @@
 # wp-tax-toggle
 
-Automatically toggle parent/child terms of WordPress taxonomies
+### Automatically toggle parent/child terms of WordPress taxonomies
+
+**How it works**
+
+In an _hirachical_ taxonomy…
+- when _checking_ any term then the script will check all its parent terms as well
+- when _unchecking_ any term then the script will uncheck all its children as well
 
 Place file in js directory and enqueue script like this:
 
