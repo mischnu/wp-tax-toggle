@@ -13,7 +13,7 @@ On a _hireachical_ taxonomy…
 
 ## How to use
 
-Place file in js directory and enqueue script in your `functions.php` like this:
+Place `toggle-parent-child-terms.js` in `js` directory and enqueue script in your `functions.php` like this:
 
 ```php
 function enqueue_admin_scripts( $hook ) {
