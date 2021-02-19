@@ -6,13 +6,14 @@ Automatically toggle parent/child terms of WordPress taxonomies
 ## How it works
 
 On a _hireachical_ taxonomy…
-- when _checking_ any term then the script will check all its parent terms as well
-- when _unchecking_ any term then the script will uncheck all its children as well
+- when **checking** any term then the script will check all its _parent terms_ as well
+- when **unchecking** any term then the script will uncheck all its _child terms_ as well
 
+![Demo](demo.gif?raw=true "Demo")
 
 ## How to use
 
-Place file in js directory and enqueue script like this:
+Place file in js directory and enqueue script in your `functions.php` like this:
 
 ```php
 function enqueue_admin_scripts( $hook ) {
