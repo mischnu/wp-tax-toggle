@@ -17,7 +17,6 @@ Place `toggle-parent-child-terms.js` in `js` directory and enqueue script in you
 
 ```php
 function enqueue_admin_scripts( $hook ) {
-  global $post;
   if ( $hook == 'post-new.php' || $hook == 'post.php' ) :
     wp_enqueue_script( 'toggle_parent_child_terms', get_stylesheet_directory_uri() . '/js/toggle-parent-child-terms.js', array( 'jquery' ) );
   endif;
